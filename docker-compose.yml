@@ -1,0 +1,6 @@
+version: '3'
+services:
+  knox:
+    build: .
+    ports:
+    - "8443:8443"
